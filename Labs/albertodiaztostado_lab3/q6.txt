@@ -1,0 +1,153 @@
+#!/usr/bin/ruby
+#
+# Alberto Diaz
+# COEN 164L
+# Lab 3
+# Question 6
+#
+/hello/
+"hello world"
+"why hello"
+"hello there"
+"xXhelloXx"
+"thellor"
+
+/love | hate/
+"i love you"
+"i hate you"
+"i love and hate you"
+"i hate that i love you"
+"love hate"
+
+/colou?r/
+"color"
+"colour"
+"technicolor"
+"technicolour"
+"bright colours"
+
+/gr[ae]y/
+"gray"
+"grey"
+"50 shades of gray"
+"50 shades of grey"
+"yusograyyyyyy"
+
+/b[aeiou]bble/
+"babble"
+"bebble"
+"bibble"
+"bubble"
+"bobble"
+
+/go*gle/
+"ggle"
+"google"
+"gooogle"
+"goooooogle"
+"goooooooooooooooooogle"
+
+/go+gle/
+"gogle"
+"google"
+"gooogle"
+"goooooogle"
+"goooooooooooooooooogle"
+
+/g(oo)+gle/
+"google"
+"goooogle"
+"goooooogle"
+"goooooooogle"
+"goooooooooogle"
+
+/x{3}/
+"xxx"
+"xxxx"
+"xxxxx"
+"xxxxxx"
+"xxxxxxx"
+
+/x{6,10}/
+"xxxxxx"
+"xxxxxxx"
+"xxxxxxxx"
+"xxxxxxxxx"
+"xxxxxxxxxx"
+"xxxxxxxxxxx"
+
+/w/
+"w"
+"wow"
+"wwoww"
+"wwwowww"
+"wwwwowwwww"
+"wwwwwowwwwww"
+
+/\w/
+"hello"
+"? what ?"
+"! where_are_you ?"
+"RAWR"
+"WHO"
+"OooOOOoOOOOoh"
+
+/d/
+"d"
+"dod"
+"ddodd"
+"dddoddd"
+"ddddoddddd"
+"dddddodddddd"
+
+/\d/
+"1"
+"2"
+"3"
+"4"
+"5"
+
+/\d{5}/
+"12345"
+"54321"
+"15243"
+"95111"
+"55555"
+
+/\d+(\.\d\d)?/
+"1"
+"11.11"
+"111.111"
+"1111.1111"
+"111111.111111"
+
+/hello\d+/
+"hello1"
+"hello2"
+"hello3"
+"hello4"
+"hello5"
+
+/sh[^io]t/
+"shat"
+"shbt"
+"shct"
+"shdt"
+"shet"
+
+/^ruby/
+"ruby1"
+"ruby2"
+"ruby3"
+"ruby4"
+"ruby5"
+
+/ruby$/
+"1ruby"
+"2ruby"
+"3ruby"
+"4ruby"
+"5ruby"
+
+/^ruby$/
+"ruby"
